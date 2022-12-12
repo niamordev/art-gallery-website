@@ -1,0 +1,196 @@
+footer{
+    max-width: 1440px;
+    margin: auto;
+
+
+    .footer-container-index{
+        background-color: $black;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 30px;
+        margin-top: 200px;
+
+
+    .logo{
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+
+    *{
+        color: white;
+    }
+
+    .socials-links{
+        display: flex;
+        gap: 20px;
+    }
+}
+
+
+
+
+// PAGE ADDRESS
+
+.container-address{
+    background-color: $brown-orange;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    *{
+        color: $black;
+    }
+
+    p{
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .logo{
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+
+    .socials-links{
+        display: flex;
+        gap: 40px;
+        
+
+        svg{
+
+            path{
+                fill: $black;
+
+            }
+            
+        }
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:600px) {
+    .footer-container-index{
+        height: 200px;
+        flex-direction: row !important;
+        justify-content: space-between;
+        gap: 0 !important;
+        padding: 30px;
+        align-items: center;
+    
+        .logo{
+            font-size: 20px;
+            line-height: 25px;
+            flex-wrap: nowrap;
+        }
+
+        p{
+            width: 50%;
+        }
+    
+    
+        .socials-links{
+
+            img{
+                max-width: 30px;
+                max-height: 30px;
+            }
+        }
+    }
+
+
+}
+
+
+
+@media (min-width:800px) {
+    
+// PAGE ADDRESS
+
+footer{
+    .container-address{
+        background-color: $brown-orange;
+        padding: 50px;
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-between;
+        gap: 50px;
+
+        *{
+            color: $black;
+        }
+
+        p{
+            max-width: 400px;
+            font-size: 19px;
+            line-height: 30px;
+        }
+
+        .logo{
+            font-size: 30px;
+            line-height: 25px;
+        }
+
+
+        .socials-links{
+            display: flex;
+            gap: 40px;
+            
+
+            svg{
+
+                path{
+                    fill: $black;
+
+                }
+                
+            }
+        }
+    }
+}
+}
+
+
+
+
+
+
+
+
+@media (min-width:1000px) {
+    .footer-container-index{
+        padding: 100px;
+    
+        .logo{
+            font-size: 28px;
+            line-height: 23px;
+            flex-wrap: nowrap;
+        }
+
+        p{
+            width: 50%;
+        }
+    
+    
+        .socials-links{
+
+            img{
+                max-width: 30px;
+                max-height: 30px;
+            }
+        }
+    }
+}

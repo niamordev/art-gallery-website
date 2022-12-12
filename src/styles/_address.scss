@@ -1,0 +1,135 @@
+header{
+    width: 100vw;
+    margin-bottom: 150px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+        button{
+            align-items: center;
+            display: flex;
+            height: 100px;
+            max-width: 400px;
+            border: none;
+            cursor: pointer;
+
+            .txt{
+                width: 76%;
+                height: 100%;
+                background-color: $black;
+                align-items: center;
+                display: flex;
+                transition: 0.2s;
+                justify-content: center;
+            }
+            h3{
+                text-transform: uppercase;
+                color: white;
+                letter-spacing: 6px;
+            }
+
+            .arrow{
+                background-color: $brown-orange;
+                height: 100%;
+                width: 24%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.2s;
+
+                svg{
+                    transition: 0.2s;
+                    rotate: -90deg;
+                }
+
+
+            }
+
+
+            &:hover{
+                .txt{
+                    background-color: $brown-orange;
+                }
+                .arrow{
+                    background-color: $black;
+
+                    path{
+                        fill: white;
+                    }
+                }
+            }
+    }
+
+
+
+
+    .container-header{
+        background: url(../../assets/images/phone/image-map.png);
+        height: 100vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:600px) {
+    header{
+        display: flex;
+        align-items: center;
+    
+    
+            button{
+                align-items: center;
+                display: flex;
+                background-color: aqua;
+                height: 50px;
+                max-width: 400px;
+    
+                .txt{
+                    width: 76%;
+                    height: 100%;
+                    background-color: $black;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                }
+                h3{
+                    text-transform: uppercase;
+                    color: white;
+                }
+    
+                .arrow{
+                    background-color: $brown-orange;
+                    height: 100%;
+                    width: 24%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+    
+                    img{
+                        rotate: -90deg;
+                    }
+                }
+        }
+    }
+}
+
+
+
+
+
+
+
+@media (min-width:1000px) {
+    
+}

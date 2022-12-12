@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Secular One", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 50px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-weight: bolder;
+  line-height: 55px;
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200px;
+}
+
+li {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200px;
+}
+
+.hidden {
+  display: none;
+}
+
+.tablet {
+  display: none;
+}
+
+.desktop {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .mobile {
+    display: none !important;
+  }
+  .tablet {
+    display: block;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: bolder;
+  }
+  h2 {
+    font-weight: bolder;
+    line-height: 39px;
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1000px) {
+  .tablet {
+    display: none !important;
+  }
+  .desktop {
+    display: block !important;
+  }
+  h1 {
+    font-size: 65px;
+    line-height: 60px;
+  }
+}
+header {
+  width: 100vw;
+  margin-bottom: 150px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header button {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  max-width: 400px;
+  border: none;
+  cursor: pointer;
+}
+header button .txt {
+  width: 76%;
+  height: 100%;
+  background-color: #151515;
+  align-items: center;
+  display: flex;
+  transition: 0.2s;
+  justify-content: center;
+}
+header button h3 {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 6px;
+}
+header button .arrow {
+  background-color: #d5966c;
+  height: 100%;
+  width: 24%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+header button .arrow svg {
+  transition: 0.2s;
+  rotate: -90deg;
+}
+header button:hover .txt {
+  background-color: #d5966c;
+}
+header button:hover .arrow {
+  background-color: #151515;
+}
+header button:hover .arrow path {
+  fill: white;
+}
+header .container-header {
+  background: url(../../assets/images/phone/image-map.png);
+  height: 100vh;
+}
+
+@media (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: center;
+  }
+  header button {
+    align-items: center;
+    display: flex;
+    background-color: aqua;
+    height: 50px;
+    max-width: 400px;
+  }
+  header button .txt {
+    width: 76%;
+    height: 100%;
+    background-color: #151515;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  header button h3 {
+    text-transform: uppercase;
+    color: white;
+  }
+  header button .arrow {
+    background-color: #d5966c;
+    height: 100%;
+    width: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header button .arrow img {
+    rotate: -90deg;
+  }
+}/*# sourceMappingURL=style-address-page.css.map */

@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 60px;
+    line-height: 50px;
+    font-weight: bolder;
+}
+
+h2{
+    font-weight: bolder;
+    line-height: 55px;
+    font-size: 50px;
+
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200px;
+}
+
+li{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200px;
+
+}
+
+
+.hidden{
+    display: none;
+}
+
+.tablet{
+    display: none;
+}
+.desktop{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:600px) {
+    .mobile{
+        display: none !important;
+    }
+
+    .tablet{
+        display: block;
+    } 
+
+    h1{
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: bolder;
+    }
+    
+    h2{
+        font-weight: bolder;
+        line-height: 39px;
+        font-size: 35px;
+    
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+    
+    
+}
+
+@media (min-width:1000px) {
+
+    .tablet{
+        display: none !important;
+    }
+    .desktop{
+        display: block !important;
+    }
+
+    h1{
+        font-size: 65px;
+        line-height: 60px;
+    }
+    
+}
